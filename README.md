@@ -46,7 +46,7 @@ habit-tracker-analyzer/
 
 ## 📸 Example Output
 
-![Habit Heatmap](outputs/Habit_Heatmap.png)
+![Habit Heatmap](outputs/habit_heatmap.png)
 
 ---
 

@@ -30,7 +30,7 @@ def calculate_current_streak(values):
 
 def export_results(filename, habits):
 
-    with open(filename, "w", newline="", encoding="utf-8") as file:
+    with open(filename, "w", newline="") as file:
         writer = csv.writer(file, delimiter=";")
         
         writer.writerow(["Habit", "Completion Rate", "Current Streak", "Max Streak"])

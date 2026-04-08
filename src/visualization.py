@@ -22,9 +22,9 @@ def plot_habit_heatmap(dates, habits):
     ax.set_xticklabels(dates, fontsize=10, fontweight='normal', rotation=30)
    
     
-    ax.grid(color="white", linestyle='-', linewidth=0.001)
+    ax.grid(color="#3b82f6", linestyle='-', linewidth=0.01)
 
-    ax.set_title("Habit Completion (Weekly Overview)", fontsize=16, fontweight='light', pad=12)
+    ax.set_title("Habit Completion (Weekly Overview)", fontsize=16, fontweight='normal', pad=12)
 
     # Color bar (legend)
     cbar = fig.colorbar(cax)
@@ -34,4 +34,4 @@ def plot_habit_heatmap(dates, habits):
     plt.tight_layout()
     plt.show()
 
-    plt.savefig("habit_heatmap.png", dpi=300)
+    plt.savefig("outputs/Habit_heatmap.png", dpi=300)

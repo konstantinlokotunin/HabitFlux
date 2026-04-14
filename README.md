@@ -1,4 +1,4 @@
-# 📊 Habit Tracker (Python)
+# 🧠📈 HabitFlux — Behavioral Tracking & Insights System (Python)
 
 A Python-based habit tracking and analysis tool that transforms daily behavioral data into actionable insights.
 The project combines data processing, statistical analysis, and visualization to evaluate consistency, streaks, and overall habit performance.
@@ -29,7 +29,7 @@ This project demonstrates an end-to-end data workflow:
 ## 🧱 Project Structure
 
 ```
-habit-tracker-analyzer/
+habitflux/
 │
 ├── data/              # Raw input data
 ├── src/               # Core logic
@@ -82,7 +82,6 @@ This project demonstrates:
 
 * Interactive visualizations (mplcursors / Plotly)
 * CLI interface (argparse / Typer)
-* Database integration (SQLite / PostgreSQL)
 * Streamlit dashboard
 * Automated habit tracking pipeline
 
